@@ -1,0 +1,10 @@
+{
+  "group": "C5",
+  "activation": "relu",
+  "width": 8,
+  "weight_decay": 0.0001,
+  "seed": 17,
+  "updates": 20000,
+  "relative_parameter_difference": 4.571727922082693e-14,
+  "max_absolute_parameter_difference": 2.495781359357352e-13
+}

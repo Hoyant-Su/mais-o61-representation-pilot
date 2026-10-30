@@ -1,0 +1,42 @@
+{
+  "seconds": 35.99783597595524,
+  "torch": "2.6.0+cu124",
+  "numpy": "2.2.6",
+  "device": "NVIDIA H100 80GB HBM3",
+  "dtype": "float64",
+  "config": {
+    "groups": [
+      "C5",
+      "S3"
+    ],
+    "activations": [
+      "quadratic",
+      "relu"
+    ],
+    "widths": [
+      2,
+      8
+    ],
+    "weight_decay": [
+      0.0,
+      0.0001,
+      0.01
+    ],
+    "seeds": {
+      "first": 0,
+      "count": 100,
+      "base": 20261030
+    },
+    "learning_rate": 0.001,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "adam_epsilon": 1e-08,
+    "max_steps": 20000,
+    "relative_tolerance": 1e-07,
+    "stable_steps": 500,
+    "key_threshold": 0.005,
+    "spectral_delta": 0.05,
+    "purity_delta": 0.05,
+    "dtype": "float64"
+  }
+}

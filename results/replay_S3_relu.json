@@ -1,0 +1,10 @@
+{
+  "group": "S3",
+  "activation": "relu",
+  "width": 8,
+  "weight_decay": 0.0001,
+  "seed": 17,
+  "updates": 20000,
+  "relative_parameter_difference": 1.3259018489886084e-11,
+  "max_absolute_parameter_difference": 8.409861695923837e-11
+}
